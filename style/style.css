@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+.azeret-mono-font {
+  font-family: "Azeret Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Universal */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+/* Shared style */
+.btn-header {
+  padding: 17px 24px 17px 24px;
+  border: 1px solid rgb(13, 19, 33);
+}
+.btn-main {
+  padding: 12px 20px 12px 20px;
+  border: 1px solid rgb(13, 19, 33);
+}
+.btn-font-style {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+}
+.border-radius {
+  border-radius: 8px;
+}
+.color-white {
+  color: rgb(255, 255, 255);
+}
+.bg-color {
+  background: rgb(13, 19, 33);
+}
+.paragraph-font-style {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.h2-font-style {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+}
+.h3-font-style {
+  color: rgba(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+
+.font-opacity {
+  opacity: 0.7;
+}
+
+.h4-font-style {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+
+/* header */
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+nav h1 {
+  margin-top: 48px 0;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+nav a {
+  margin: 38px 0;
+}
+.banner {
+  width: 100%;
+  background-image: url(../images/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 652px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+.banner h1 {
+  width: 998px;
+  height: 136px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.banner-p {
+  width: 852px;
+  height: 52px;
+}
+
+/* main */
+
+/* development */
+
+.development {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 120px 0;
+}
+.dev-header p {
+  margin: 24px 0 48px 0;
+}
+.dev-elements {
+  display: flex;
+  flex-direction: column;
+  width: 946px;
+  /* border: 1px solid black; */
+}
+.dev-elements .element-top,
+.dev-elements .element-bottom,
+.dev-elements .element-center {
+  display: flex;
+  padding: 48px;
+  align-items: center;
+  gap: 98px;
+}
+
+.dev-elements .element-center {
+  flex-direction: row-reverse;
+}
+.dev-elements .element-top h3,
+.dev-elements .element-bottom h3 {
+  width: 390px;
+  height: 72px;
+}
+
+.dev-elements .element-center h3 {
+  width: 477px;
+  height: 72px;
+}
+
+.dev-elements .element-top p,
+.dev-elements .element-bottom p,
+.dev-elements .element-center p {
+  width: 468px;
+  height: 52px;
+  margin: 16px 0 32px 0;
+}
+.dev-elements .element-top img {
+  width: 274.17px;
+  height: 240px;
+}
+.dev-elements .element-center img,
+.dev-elements .element-bottom img {
+  width: 240px;
+  height: 240px;
+  /* border: 1px solid red; */
+}
+
+/* inspiration */
+.inspiration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inspiration-header p {
+  margin: 24px 0 48px 0;
+}
